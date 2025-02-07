@@ -7,8 +7,15 @@
 <body>
     <p class="hello">新規グループ作成</p>
     <p>グループ名：<input type="text" placeholder="グループ名を入力(空欄可)" /></p>
-    <p><input type="text" readonly><button>参照</button></p>
-    <button>ボタン</button>
+    <p>
+      <label>CSVファイル：</label>
+      <span><input type="text" readonly> <button>参照</button></span>
+    </p>
+    <p>
+      <span><label><a href="./manual.pdf">マニュアル</a></label></span>
+      <span><label><a href="./template.csv">CSVテンプレート</a></label></span>
+      <span><button>送信</button></span>
+    </p>
     <script src="popup.js" defer></script>
 </body>
 </html>
