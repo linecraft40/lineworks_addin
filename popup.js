@@ -14,5 +14,7 @@ fileInput.addEventListener('change', (e) => {
         fileContent.textContent = reader.result;
     };
     txt.innerText = fileContent.textContent;
+    alert("txt:" + fileContent.textContent)
+    alert("finish")
     reader.readAsText(file);
 });
