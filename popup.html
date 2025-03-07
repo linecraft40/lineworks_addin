@@ -9,12 +9,14 @@
     <p>グループ名：<input type="text" placeholder="グループ名を入力(空欄可)" /></p>
     <p>
       <label>CSVファイル：</label>
-      <span><input type="text" readonly> <button>参照</button></span>
+      <span><input type="text" id="fileInput"> <button id="reference">参照</button></span>
+      <pre id="fileContent"></pre>
+      <label id="txt"></label>
     </p>
     <p>
       <span><label><a href="./manual.pdf">マニュアル</a></label></span>
       <span><label><a href="./template.csv">CSVテンプレート</a></label></span>
-      <span><button>送信</button></span>
+      <span><button id="send">送信</button></span>
     </p>
     <script src="popup.js" defer></script>
 </body>
