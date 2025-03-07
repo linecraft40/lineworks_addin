@@ -11,6 +11,7 @@ fileInput.addEventListener('change', (e) => {
     const reader = new FileReader();
 
     reader.onload = () => {
+        alert("onload")
         fileContent.textContent = reader.result;
     };
     txt.innerText = fileContent.textContent;
